@@ -76,7 +76,7 @@ function NotesClient({
         )}
 
         <Link
-          href="/app/notes/action/create"
+          href="/notes/action/create"
           className={css.button}
           >
           Create note +

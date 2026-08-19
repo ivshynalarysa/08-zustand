@@ -15,6 +15,7 @@ export default function NoteForm() {
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['notes'] });
       clearDraft();
+      window.history.back();
     },
   });
 
